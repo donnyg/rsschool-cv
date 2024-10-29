@@ -1,5 +1,7 @@
 # Ivan Erokhin
 
+![](https://i.imgur.com/54yoSli.png)
+
 ## About Me
 I am a 26 years old actively studying web technologies with the goal of becoming a frontend developer. I am dedicated to continuous learning and self-improvement in programming, particularly in JavaScript, React, and Next.js. My aim is to create high-quality and user-friendly web applications that provide value to users.
 
