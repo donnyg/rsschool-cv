@@ -1,4 +1,5 @@
 # Ivan Erokhin
+![](photo.png)
 
 ## About Me
 27 years old, actively learning modern web development with a strong focus on creating high-quality, user-centric applications. Committed to continuous improvement, clean code, and delivering real value through intuitive digital experiences.
