@@ -82,10 +82,37 @@ ul {
   transition: opacity ease 0.3s;
 }
 
+.footer {
+  margin: 2rem auto 0;
+  max-width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 14px;
+}
+
+.footer__text {
+  text-align: center;
+}
+
+.footer__copyright {
+  opacity: 0.5;
+}
+
+.footer__dev-link,
+.footer__school-link {
+  opacity: 0.5;
+  transition: opacity ease 0.3s;
+}
+
 @media (hover: hover) {
 
   .header__nav-link:hover,
-  .header__nav-link:focus-visible {
+  .header__nav-link:focus-visible,
+  .footer__dev-link:hover,
+  .footer__dev-link:focus-visible,
+  .footer__school-link:hover,
+  .footer__school-link:focus-visible {
     opacity: 1;
   }
 }
