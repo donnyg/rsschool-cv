@@ -105,6 +105,12 @@ ul {
   transition: opacity ease 0.3s;
 }
 
+pre {
+  background: #f5f5f5;
+  padding: 1rem;
+  border-radius: 16px;
+}
+
 @media (hover: hover) {
 
   .header__nav-link:hover,
