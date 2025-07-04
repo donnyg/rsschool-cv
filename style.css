@@ -30,6 +30,15 @@ ul {
   list-style-position: inside;
 }
 
+.header__title,
+.section__title {
+  font-weight: normal;
+}
+
+.section__title {
+  margin: 1.5rem 0 0.5rem;
+}
+
 .container {
   margin: 0 auto;
   padding: 32px;
@@ -51,7 +60,17 @@ ul {
   border-radius: 50%;
 }
 
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .header__nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
   list-style: none;
 }
 
