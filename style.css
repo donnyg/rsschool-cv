@@ -42,3 +42,22 @@ ul {
 .header__nav-list {
   list-style: none;
 }
+
+.header__nav-link {
+  opacity: 0.5;
+  transition: opacity ease 0.3s;
+}
+
+@media (hover: hover) {
+
+  .header__nav-link:hover,
+  .header__nav-link:focus-visible {
+    opacity: 1;
+  }
+}
+
+@media (hover: none) and (pointer: coarse) {
+  .header__nav-link:active {
+    opacity: 1;
+  }
+}
