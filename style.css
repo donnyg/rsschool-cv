@@ -43,6 +43,9 @@ ul {
   margin: 0 auto;
   padding: 32px;
   max-width: 720px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
   background-color: #fff;
   border-radius: 16px;
   box-shadow: 0px 0px 35px 10px #e6e6e6;
