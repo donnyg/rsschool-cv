@@ -32,6 +32,7 @@ ul {
 
 .container {
   margin: 0 auto;
+  padding: 32px;
   max-width: 720px;
   background-color: #fff;
   border-radius: 16px;
