@@ -63,11 +63,8 @@ ul {
   border-radius: 50%;
 }
 
-.header {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
+.header__nav {
+  margin-top: 0.5rem;
 }
 
 .header__nav-list {
