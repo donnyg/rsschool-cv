@@ -74,11 +74,6 @@ ul {
   list-style: none;
 }
 
-.header__nav-link {
-  opacity: 0.5;
-  transition: opacity ease 0.3s;
-}
-
 .footer {
   margin: 2rem auto 0;
   max-width: fit-content;
@@ -96,6 +91,7 @@ ul {
   opacity: 0.5;
 }
 
+.header__nav-link,
 .footer__dev-link,
 .footer__school-link {
   opacity: 0.5;
@@ -121,7 +117,10 @@ pre {
 }
 
 @media (hover: none) and (pointer: coarse) {
-  .header__nav-link:active {
+
+  .header__nav-link:active,
+  .footer__dev-link:active,
+  .footer__school-link:active {
     opacity: 1;
   }
 }
