@@ -39,6 +39,14 @@ ul {
   margin: 1.5rem 0 0.5rem;
 }
 
+.section__list-item {
+  margin-top: 0.25em;
+}
+
+.section__sublist {
+  margin-left: 1.5em;
+}
+
 .container {
   margin: 0 auto;
   padding: 32px;
