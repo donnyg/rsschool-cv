@@ -13,7 +13,6 @@
 
 :root {
   font: 16px/1.2 "Trebuchet MS", sans-serif;
-  scroll-behavior: smooth;
 }
 
 body {
@@ -130,5 +129,11 @@ pre {
   .footer__dev-link:active,
   .footer__school-link:active {
     opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    scroll-behavior: smooth;
   }
 }
